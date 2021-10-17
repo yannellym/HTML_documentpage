@@ -1,0 +1,40 @@
+header {
+  margin: 8px;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+#nav-bar {
+  position: fixed;
+  border-right: dotted;
+  width: 100px;
+  height: 100%;
+  min-width: 290px;
+  left: 5px;
+  top: 5px;
+  border-color: black;
+  background: white;
+  line-height: 3;
+}
+
+body {
+  background-color: #c0d6e4;
+  line-height: 2;
+  min-width: 280px;
+  color: black;
+  font-family: serif;
+}
+
+#main-doc header {
+  margin: 3% 5% 3% 25%;
+  text-align: left;
+  font-size: 18px;
+}
+
+code {
+  display: block;
+  background-color: white;
+  font-size: 15px;
+  margin: 3% 10%;
+}

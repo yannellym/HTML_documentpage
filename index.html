@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Documents</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <nav id="nav-bar">
+    <header>HTML Documents</header>
+    <ul>
+      <li><a class="nav-link" href="#introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#what_you_need_to_know">What you need to know</li>
+      <li><a class="nav-link" href="#creating_hyperlinks">Creating hyperlinks</a></li>
+      <li><a class="nav-link" href="#debugging">Debugging HTML</a></li>
+      <li><a class="nav-link" href="#advanced">Advanced text formatting</a></li>
+  </nav>
+
+  <!--   Introduction -->
+
+  <div id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>
+        <h2> Introduction </h2>
+        <p> HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS)
+          or functionality/behavior (JavaScript).</p>
+
+        <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other
+          people, you become an active participant in the World Wide Web.
+        </p>
+        <code>A basic link is created by wrapping the text or other content, see Block level links, inside an anchor element and using the href attribute, also known as a Hypertext Reference, or target, that contains the web address </code>
+      </header>
+    </section>
+
+    <section class="main-section" id="what_you_need_to_know">
+      <header>
+        <h2> What you need to know </h2>
+        <p> The anatomy of our element is:
+
+          The opening tag: This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it
+          precedes the start of the paragraph text. </p>
+
+        <p>The content: This is the content of the element. In this example, it is the paragraph text.
+          The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar
+          results.
+          The element is the opening tag, followed by content, followed by the closing tag.
+        </p>
+        <code>Preferably, you should use a single h1 per page—this is the top level heading, and all others sit below this in the hierarchy. </code>
+      </header>
+    </section>
+
+    <section class="main-section" id="#creating_hyperlinks">
+      <header>
+        <h2> Creating hyperlinks</h2>
+        <p> Hyperlinks are one of the most exciting innovations the Web has to offer. They've been a feature of the Web since the beginning, and are what makes the Web a web. Hyperlinks allow us to link documents to other documents or resources, link
+          to specific parts of documents, or make apps available at a web address. </p>
+        <p>Almost any web content can be converted to a link so that when clicked or otherwise activated the web browser goes to another web address. A basic link is created by wrapping the text or other content, see Block level links, inside an
+          anchor element and using the href attribute, also known as a Hypertext Reference, or target, that contains the web address.
+        </p>
+        <code>Another attribute you may want to add to your links is title. The title contains additional information about the link, such as which kind of information the page contains, or things to be aware of on the web site. </code>
+      </header>
+    </section>
+
+    <section class="main-section" id="#debugging">
+      <header>
+        <h2> Debugging HTML</h2>
+        <p> Debugging isn't scary
+          When writing code of some kind, everything is usually fine, until that dreaded moment when an error occurs — you've done something wrong, so your code doesn't work — either not at all, or not quite how you wanted it to. For example, the
+          following shows an error reported when trying to compile a simple program written in the Rust language. Here, the error message is relatively easy to understand — "unterminated double quote string". </p>
+        <p>If you look at the listing, you can probably see how println!(Hello, world!"); might logically be missing a double quote. However, error messages can quickly get more complicated and less easy to interpret as programs get bigger, and even
+          simple cases can look a little intimidating to someone who doesn't know anything about Rust.</p>
+
+        <p>Debugging doesn't have to be scary though — the key to being comfortable with writing and debugging any programming language or code is familiarity with both the language and the tools.</p>
+        </p>
+        <code>HTML is not as complicated to understand as Rust. HTML is not compiled into a different form before the browser parses it and shows the result (it is interpreted, not compiled). And HTML's element syntax is arguably a lot easier to
+          understand than a "real programming language" like Rust, JavaScript, or Python. The way that browsers parse HTML is a lot more permissive than how programming languages are run, which is both a good and a bad thing. </code>
+      </header>
+    </section>
+
+    <section class="main-section" id="#advanced">
+      <header>
+        <h2> Advanced text formatting</h2>
+        <p> There are many other elements in HTML for formatting text, which we didn't get to in the HTML text fundamentals article. The elements described in this article are less known, but still useful to know about (and this is still not a
+          complete list by any means). Here you'll learn about:
+        <ul>
+          <li>marking up quotations,</li>
+          <li>description lists, </li>
+          <li>computer code and other related text,</li>
+          <li>subscript and superscript,</li>
+          <li>contact information, and more.</li>
+          </p>
+          <code>In HTML text fundamentals, we walked through how to mark up basic lists in HTML, but we didn't mention the third type of list you'll occasionally come across — description lists. The purpose of these lists is to mark up a set of items
+            and their associated descriptions, such as terms and definitions, or questions and answers. </code>
+      </header>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
